@@ -43,9 +43,12 @@ const styles = StyleSheet.create({
     right: 10,
     justifyContent: "center",
     alignItems: "center",
+
   },
   centeredView: {
     flex: 1,
+    backgroundColor:"rgba(43,43,43,0.4)"
+
   },
   modalView: {
     margin: 20,
@@ -62,9 +65,9 @@ const styles = StyleSheet.create({
     shadowRadius: 3.84,
     elevation: 5,
     marginTop: 100,
+    borderStartColor: "red",
   },
   openButton: {
-    backgroundColor: "#F194FF",
     borderRadius: 20,
     padding: 10,
     elevation: 2,
@@ -116,7 +119,7 @@ const styles = StyleSheet.create({
     borderRadius: 20,
     justifyContent: "center",
     alignItems: "center",
-    elevation:5
+    elevation: 5,
   },
   _profilePic: {
     height: 40,

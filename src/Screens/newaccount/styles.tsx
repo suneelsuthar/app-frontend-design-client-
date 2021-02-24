@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     fontWeight: "300",
     textAlign: "center",
     fontSize: 18,
-    marginVertical: 20,
+    marginVertical: 70,
   },
   _codeInput: {
     borderTopWidth: 1,
@@ -37,7 +37,8 @@ const styles = StyleSheet.create({
     padding: 8,
     borderRadius: 5,
     marginVertical: 12,
-    alignSelf:"center"
+    alignSelf:"center",
+    marginTop:110
   },
   _confirmBtn_text: {
     textAlign: "center",

@@ -3,7 +3,8 @@ import { StyleSheet, Text, View } from "react-native";
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding:0
+    padding:0,
+    backgroundColor:"white"
   },
   _innerView: {
     flex: 1,
@@ -35,8 +36,8 @@ const styles = StyleSheet.create({
     width: "94%",
     padding: 8,
     borderRadius: 5,
-    marginVertical: 12,
-    alignSelf:"center"
+    alignSelf:"center",
+    marginTop:90
   },
   _confirmBtn_text: {
     textAlign: "center",

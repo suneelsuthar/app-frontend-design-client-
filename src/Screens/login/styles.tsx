@@ -35,6 +35,8 @@ const styles = StyleSheet.create({
     width: "96%",
     paddingHorizontal: 10,
     marginVertical: 20,
+    flexDirection:"row",
+    alignItems:"center"
   },
   _card: {
     width: "78%",
@@ -97,13 +99,10 @@ const styles = StyleSheet.create({
   },
   _footerBox: {
     backgroundColor: "white",
-    width: "87%",
+    width: "75%",
     alignSelf: "center",
-    padding: 10,
+    padding: 20,
     borderRadius: 10,
-    paddingBottom: 20,
-    borderBottomRightRadius: 0,
-    borderBottomLeftRadius: 0,
   },
   _box_text: {
     textAlign: "center",
